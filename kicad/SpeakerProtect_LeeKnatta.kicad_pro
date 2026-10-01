@@ -611,12 +611,54 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -661,13 +703,17 @@
         "uuid": "1c068ca8-5f29-49e1-8ff3-7a0995a53dab"
       }
     ],
-    "used_designators": "RV1-2,U1-6,Q1-6,Q22-27,Q46-54,Q82-83,C1-3,C43-45,C83-85,D1-4,D20-23,D43,D85,R1-5,R8-10,R14-15,R19-22,R26-28,R31-36,R41,R48-53,R85-94",
+    "used_designators": "#FLG1-2,J1-7,T1,#PWR1-8,RV1-2,U1-6,Q1-6,Q22-27,Q46-54,Q82-83,C1-3,C43-45,C83-85,D1-4,D20-23,D43,D85,R1-5,R8-10,R14-15,R19-22,R26-28,R31-36,R41,R48-53,R85-94",
     "variants": []
   },
   "sheets": [
     [
       "1c068ca8-5f29-49e1-8ff3-7a0995a53dab",
       "SpeakerProtect_LeeKnatta"
+    ],
+    [
+      "e10da946-cd60-4123-bb94-a1ab44c72e59",
+      "Connections"
     ]
   ],
   "text_variables": {},
