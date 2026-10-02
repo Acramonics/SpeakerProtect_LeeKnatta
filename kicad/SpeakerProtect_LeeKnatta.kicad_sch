@@ -5336,6 +5336,12 @@
 		(uuid "d7ab825d-5417-4764-9ce4-fd76df496c1c")
 	)
 	(junction
+		(at 119.38 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7c02ca7-d0b0-4f6e-baee-f60e6b550e60")
+	)
+	(junction
 		(at 144.78 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6871,6 +6877,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 29.21) (xy 132.08 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7987c33a-25fb-4b21-8c74-3c2aaaf88df8")
+	)
+	(wire
+		(pts
 			(xy 176.53 73.66) (xy 190.5 73.66)
 		)
 		(stroke
@@ -7241,6 +7257,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 29.21) (xy 119.38 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b397dc-bafc-45cf-967b-88526cfb0693")
+	)
+	(wire
+		(pts
 			(xy 237.49 48.26) (xy 237.49 53.34)
 		)
 		(stroke
@@ -7581,7 +7607,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 29.21) (xy 132.08 29.21)
+			(xy 114.3 29.21) (xy 119.38 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7661,7 +7687,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 26.67) (xy 119.38 30.48)
+			(xy 119.38 26.67) (xy 119.38 29.21)
 		)
 		(stroke
 			(width 0)
@@ -9327,7 +9353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 161.29 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9409,7 +9435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 72.39 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9669,7 +9695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
 			(at 52.07 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9750,7 +9776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 99.06 155.575 0)
 			(hide yes)
 			(show_name no)
@@ -9942,7 +9968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 52.07 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -10295,7 +10321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 124.46 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11198,7 +11224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 64.77 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11438,7 +11464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 59.69 93.345 0)
 			(hide yes)
 			(show_name no)
@@ -11657,7 +11683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 148.59 93.345 0)
 			(hide yes)
 			(show_name no)
@@ -11767,7 +11793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 36.83 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11849,7 +11875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
 			(at 52.07 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -12041,7 +12067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12222,7 +12248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 54.61 116.205 0)
 			(hide yes)
 			(show_name no)
@@ -12531,7 +12557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 267.97 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -12943,7 +12969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 179.07 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -13298,7 +13324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 104.14 179.705 0)
 			(hide yes)
 			(show_name no)
@@ -13376,7 +13402,8 @@
 	)
 	(symbol
 		(lib_id "Diode_Bridge:B40C3x00-2200A")
-		(at 48.26 27.94 180)
+		(at 48.26 27.94 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13384,10 +13411,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5e79c27c-68a7-4336-a8f6-0921127f0d38")
 		(property "Reference" "D80"
-			(at 59.69 21.5198 0)
+			(at 59.69 34.3602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13397,7 +13423,7 @@
 			)
 		)
 		(property "Value" "KBP206G"
-			(at 59.69 24.0598 0)
+			(at 59.69 31.8202 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13406,8 +13432,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm"
-			(at 44.45 31.115 0)
+		(property "Footprint" "ACRM:Diode_Bridge_14.5x3.5x10.5mm_P3.61"
+			(at 44.45 24.765 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13418,7 +13444,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700"
+		(property "Datasheet" ""
 			(at 48.26 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -13494,7 +13520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 240.03 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -13768,7 +13794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 111.76 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13850,7 +13876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 59.69 153.035 0)
 			(hide yes)
 			(show_name no)
@@ -13961,7 +13987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 143.51 130.175 0)
 			(hide yes)
 			(show_name no)
@@ -14071,7 +14097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_CathodeUp"
 			(at 75.565 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14263,7 +14289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 143.51 116.205 0)
 			(hide yes)
 			(show_name no)
@@ -14664,7 +14690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 161.29 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14746,7 +14772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 148.59 153.035 0)
 			(hide yes)
 			(show_name no)
@@ -14938,7 +14964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
 			(at 140.97 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -15120,7 +15146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.0mm_P5.00mm"
 			(at 25.4 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -15499,7 +15525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
 			(at 64.77 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15559,7 +15585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef66957-87f5-401e-9cef-6109a13545c0")
-		(property "Reference" "C83"
+		(property "Reference" "C1"
 			(at 121.92 54.0638 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15581,7 +15607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm_P7.50mm"
 			(at 119.38 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15623,7 +15649,7 @@
 		(instances
 			(project "SpeakerProtect_LeeKnatta"
 				(path "/1c068ca8-5f29-49e1-8ff3-7a0995a53dab"
-					(reference "C83")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -15849,7 +15875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 81.28 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -16151,7 +16177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 199.39 155.575 0)
 			(hide yes)
 			(show_name no)
@@ -16853,7 +16879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 147.32 36.195 0)
 			(hide yes)
 			(show_name no)
@@ -17215,7 +17241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 35.56 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17298,7 +17324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 171.45 36.195 0)
 			(hide yes)
 			(show_name no)
@@ -17568,7 +17594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
 			(at 140.97 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -18177,7 +18203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 54.61 130.175 0)
 			(hide yes)
 			(show_name no)
